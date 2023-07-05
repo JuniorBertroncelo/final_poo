@@ -24,6 +24,7 @@ public class PedidoServiceImpl implements PedidoService{
 
 	@Override
 	public void save(Pedido entidade) {
+		pedidoRepository.save(entidade);
 		// TODO Auto-generated method stub
 		
 	}

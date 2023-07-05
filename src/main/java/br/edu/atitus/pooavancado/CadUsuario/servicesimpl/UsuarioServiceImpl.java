@@ -41,6 +41,7 @@ public class UsuarioServiceImpl implements UsuarioService{
 
 	@Override
 	public void save(Usuario entidade) {
+		usuarioRepository.save(entidade);
 		// TODO Auto-generated method stub
 		
 	}
